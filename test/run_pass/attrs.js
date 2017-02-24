@@ -173,6 +173,10 @@
         all: 10
       },
     },
+    'test_tls.js': {
+      skip: ['all'],
+      reason: "not implemented"
+    },
     'test_uart.js': {
       skip: ['all'],
       reason: "need to setup test environment"
